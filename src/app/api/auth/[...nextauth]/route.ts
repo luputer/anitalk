@@ -15,6 +15,9 @@ export const authOptions = {
     }),
     // ...add more providers here
   ],
+  pages: {
+    signIn: '/auth/signin', // Custom signin page
+  },
 }
 
 const handler = NextAuth(authOptions)
